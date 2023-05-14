@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <cstring>
+#include "Game_Player.h"
 
 using namespace std;
 

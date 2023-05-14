@@ -1,3 +1,4 @@
+#include "Game_Player.h"
 #include "Person.h"
 
 Person::Person()
