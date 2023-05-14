@@ -9,8 +9,6 @@ int main(int argv, char *argc[]) {
 	Game_Player Jack(77);
 	Jack.Game_Player_show();
 
-	Game_Player Rose(77);
-	Rose.Game_Player_show();
 
 	return 0;
 }
