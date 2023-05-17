@@ -15,6 +15,7 @@ Person::Person(const string name, const string sex, const int age, const int num
 	this->number = number;
 }
 
+
 Person::~Person()
 {
 	cout << "~Person£¨£©" << endl;

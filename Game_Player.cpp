@@ -17,6 +17,7 @@ Game_Player::~Game_Player()
 	cout << "~Game_Player£¨£©" << endl;
 }
 
+
 int Game_Player::Game_Player_show()
 {
 	Person_show();
