@@ -17,6 +17,14 @@ Game_Player::~Game_Player()
 	cout << "~Game_Player£¨£©" << endl;
 }
 
+int Game_Player::Game_Player_set(const string name, const string sex, const int age, const int number, const int score)
+{
+	Person_set(name, sex, age, number);
+	this->score = score;
+
+	return 0;
+}
+
 
 int Game_Player::Game_Player_show()
 {

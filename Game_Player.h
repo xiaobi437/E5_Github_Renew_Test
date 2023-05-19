@@ -14,6 +14,8 @@ public:
 	Game_Player(const string name, const string sex, const int age, const int number, const int score);
 	~Game_Player();
 
+	int Game_Player_set(const string name, const string sex, const int age, const int number, const int score);
+
 	int Game_Player_show();
 protected:
 	int score;

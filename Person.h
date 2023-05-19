@@ -15,6 +15,7 @@ public:
 	~Person();
 
 	int Person_show();
+	int Person_set(const string name, const string sex, const int age, const int number);
 
 protected:
 	int number;		//ºÅÂë
