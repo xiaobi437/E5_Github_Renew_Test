@@ -19,7 +19,13 @@ Game_Player::~Game_Player()
 
 int Game_Player::Game_Player_set(const string name, const string sex, const int age, const int number, const int score)
 {
-	Person_set(name, sex, age, number);
+	//Person_set(name, sex, age, number);
+
+	this->name = name;
+	this->sex = sex;
+	this->age = age;
+	this->number = number;
+
 	this->score = score;
 
 	return 0;

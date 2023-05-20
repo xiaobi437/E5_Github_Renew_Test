@@ -10,8 +10,10 @@ int main(int argv, char *argc[]) {
 	Jack.Game_Player_show();
 
 	Game_Player Rose;
-	Rose.Game_Player_set("Rose", "woman", 11, 666, 99);
+	Rose.Game_Player_set("Rose", "woman", 12, 666, 99);
 	Rose.Game_Player_show();
+
+
 
 	return 0;
 }
