@@ -23,6 +23,7 @@ int main(int argv, char *argc[]) {
 	//Èý½ÇÐÎ
 	get_area(new Triangle(2,5));
 	cout << "-----------------------" << endl;
+	cout << "-----------------------" << endl;
 
 	return 0;
 }

@@ -5,6 +5,7 @@
 #include <cstring>
 #include "Person.h"
 
+
 using namespace std;
 
 class Game_Player :protected Person
