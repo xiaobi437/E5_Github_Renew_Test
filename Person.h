@@ -9,11 +9,12 @@ using namespace std;
 class Person
 {
 public:
+	static int a;
 	Person();
 	Person(const string name, const string sex, const int age, const int number);
 	~Person();
 
-	int Person_show();
+    int Person_show();
 	int Person_set(const string name, const string sex, const int age, const int number);
 
 protected:
